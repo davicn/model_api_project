@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import requests 
 import mlflow 
-# from mangum import Mangum
+from mangum import Mangum
 
 # uvicorn api:app --reload --port 8000
 # python3 -m uvicorn api:app --port 8000
